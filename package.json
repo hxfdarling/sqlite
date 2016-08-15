@@ -1,0 +1,30 @@
+{
+  "name": "sqlite",
+  "description": "",
+  "keywords": [
+    "sqlite",
+    "sqlite3",
+    "sync",
+    "async",
+    "database"
+  ],
+  "tags": [
+    "sqlite3"
+  ],
+  "version": "0.3.5",
+  "author": {
+    "name": "z man",
+    "email": ""
+  },
+  "dependencies": {
+    "crypto-js": "3.1.5"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/app.js"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "sqlite.js"
+}
